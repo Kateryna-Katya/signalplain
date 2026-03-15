@@ -54,9 +54,3 @@ font-family: "Teachers", sans-serif;
     font-weight: 700;
 }
 
-@media only screen and (min-width: 1439px) {
-    .policy-subtitle {
-        font-size: 30px;
-    }
-
-}
