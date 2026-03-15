@@ -88,3 +88,41 @@ width: 640px;
     padding-left: 30px;
  }
 }
+/* HOW IT WORKS */
+.how-container{
+  position: relative;
+}
+.how-list{
+  margin-top: 48px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.how-item{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.how-item-step{
+  font-weight: 500;
+    font-size: 20px;
+    color: #fafdd0;
+}
+.how-text{
+  font-weight: 500;
+    font-size: 20px;
+}
+@media only screen and (min-width: 1440px) {
+ .how-list{
+  margin-top: 64px;
+  width: 544px;
+  margin-bottom: 32px;
+ }
+ .how-item-step{
+  font-size: 22px;
+ }
+ .how-text{
+  font-size: 22px;
+ }
+}
