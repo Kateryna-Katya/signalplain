@@ -115,7 +115,6 @@ width: 640px;
 }
 @media only screen and (min-width: 1440px) {
  .how-list{
-  margin-top: 64px;
   width: 544px;
   margin-bottom: 32px;
  }
@@ -165,4 +164,31 @@ width: 640px;
 font-size: 22px;
 margin-top: 11px;
 }
+}
+/* STRUCTURED PROGRESSION */
+.structured-container{
+  position: relative;
+}
+.structured-list{
+  margin-top: 16px;
+  margin-bottom: 24px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+.structured-text{
+  font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.structured-img{
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 1440px) {
+ .structured-text{
+  width: 544px;
+  font-size: 22px;
+ }
+ .structured-img{
+  top: 34%;
+ }
 }
