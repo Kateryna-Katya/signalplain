@@ -192,3 +192,30 @@ margin-top: 11px;
   top: 34%;
  }
 }
+/* TESTIMONIALS */
+.reviews-title{
+  font-size: 35px;
+  margin-bottom: 48px;
+}
+.my-swiper .swiper-slide{
+  border-radius: 24px;
+    padding: 16px;
+    height: 364px;
+    background: #2e6e96;
+}
+.author{
+  margin-top: 32px;
+  font-weight: 500;
+    font-size: 20px;
+  text-align: right;
+    color: #fafdd0;
+}
+@media only screen and (min-width: 1440px) {
+ .reviews-title{
+  font-size: 48px;
+  margin-bottom: 64px;
+ }
+.my-swiper .swiper-slide {
+height: 247px;
+}
+}
